@@ -8,13 +8,14 @@
 
 @import url('http://fonts.cdnfonts.com/css/lost-castedral');
                 
+@import url('http://fonts.cdnfonts.com/css/heibird');
 
 /* GLOBAL STYLES */
 
 :root {
-  --font-primary: 'Lost Castedral', sans-serif;
-  --font-secondary: "Lost Castedral", serif;
-  --font-code: "Lost Castedral", serif;
+  --font-primary: 'Heibird ', sans-serif;
+  --font-secondary: "Heibird", serif;
+  --font-code: "Heibird", serif;
   --bg-color: #17185b;
   --bg-color-transparent: #f5f1ff;
   --font-color: #f5f1ff;
