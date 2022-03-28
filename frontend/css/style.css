@@ -11,12 +11,12 @@
 /* GLOBAL STYLES */
 
 :root {
-  --font-primary: 'Devinne Swash', sans-serif;
+  --font-primary: 'Coolvetica', sans-serif;
   --font-secondary: "Coolvetica", sans-serif;
   --font-code: "Coolvetica", sans-serif;
   --bg-color: #17185b;
   --bg-color-transparent: #ffffff;
-  --font-color: #e7e7d7;
+  --font-color: hsl(249, 88%, 36%);
   --btn-bg-color: #0c0c2e;
   --accent-color: #cccccc;
   --header-shadow: var(--accent-color) 0px 0px 5px;
