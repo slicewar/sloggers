@@ -10,18 +10,20 @@
                 
 @import url('http://fonts.cdnfonts.com/css/heibird');
 
+@import url('http://fonts.cdnfonts.com/css/baselbook');
+
 /* GLOBAL STYLES */
 
 :root {
-  --font-primary: 'Heibird ', serif;
-  --font-secondary: "Heibird", serif;
-  --font-code: "Heibird", serif;
+  --font-primary: 'Basel Book', serif;
+  --font-secondary: "Basel Book", serif;
+  --font-code: "Basel Book", serif;
   --bg-color: #17185b;
   --bg-color-transparent: #f5f1ff;
   --font-color: #f5f1ff;
   --btn-bg-color: #f5f1ff;
   --accent-color: #161758;
-  --header-shadow: var(--accent-color) 0px 0px 5px;
+  --header-shadow: var(--accent-color) 0px 0px 100px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
 
