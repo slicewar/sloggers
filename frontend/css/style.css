@@ -4,17 +4,21 @@
 
 @import url('http://fonts.cdnfonts.com/css/coolvetica-2');
 
+@import url('http://fonts.cdnfonts.com/css/devinne-swash');
+
+                
+
 /* GLOBAL STYLES */
 
 :root {
-  --font-primary: 'Coolvetica', sans-serif;
+  --font-primary: 'Devinne Swash', sans-serif;
   --font-secondary: "Arvo", serif;
-  --font-code: "Roboto", monospace;
-  --bg-color: #0d2b45;
+  --font-code: "Coolvetica", monospace;
+  --bg-color: #17185b;
   --bg-color-transparent: #ffffff;
   --font-color: #e7e7d7;
-  --btn-bg-color: #0d2b45;
-  --accent-color: #e7e7e7;
+  --btn-bg-color: #0c0c2e;
+  --accent-color: #282b9e;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
