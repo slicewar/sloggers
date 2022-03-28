@@ -12,8 +12,8 @@
 
 :root {
   --font-primary: 'Devinne Swash', sans-serif;
-  --font-secondary: "Arvo", serif;
-  --font-code: "Coolvetica", monospace;
+  --font-secondary: "Coolvetica", sans-serif;
+  --font-code: "Coolvetica", sans-serif;
   --bg-color: #17185b;
   --bg-color-transparent: #ffffff;
   --font-color: #e7e7d7;
