@@ -1,4 +1,4 @@
-const contractAddress = "0x4Dad965ce277B951a066303c104f257EC997610b"; //Replace with your own contract address
+const contractAddress = "0xa1018f74b1aB3292742bD9dCFEf0ED1BAe32b0C7"; //Replace with your own contract address
 const chain = 'polygon'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the Slice War Metaverse";

@@ -8,7 +8,7 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "Sloggers - The Slice War Metaverse";
-const description = "The Slice War Metaverse is a set of 4 collections based on your metaverse, where each NFT avatar is unique and randomly generated.";
+const description = "The Slice War Metaverse is a set of 4 collections (Amphers, Leggsters, Sloggers and Splinters) based on your metaverse, where each NFT avatar is unique and randomly generated.";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
@@ -38,7 +38,7 @@ const format = {
 };
 
 const extraMetadata = {
-  external_url: "https://slicewar.com", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://slicewar.online", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
@@ -46,16 +46,16 @@ const extraMetadata = {
 // ** REQUIRED **
 const AUTH = process.env.NFTPORT_API_KEY; // Set this in the .env file to prevent exposing your API key when pushing to Github
 const LIMIT = 2; // Your API key rate limit
-const CHAIN = 'rinkeby'; // only rinkeby or polygon
+const CHAIN = 'polygon'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'Sloggers - The Slice War Metaverse';
 const CONTRACT_SYMBOL = 'SLGSW';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
-const OWNER_ADDRESS = '0x343D6Ff57533250f2453052df4f0E114b646d07e';
-const TREASURY_ADDRESS = '0x343D6Ff57533250f2453052df4f0E114b646d07e';
+const OWNER_ADDRESS = '0x063a8d48d6A1Aa17CE6b35Ec2950479DCDab4203';
+const TREASURY_ADDRESS = '0x063a8d48d6A1Aa17CE6b35Ec2950479DCDab4203';
 const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 0.01; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const MINT_PRICE = 115; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 5; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
@@ -64,10 +64,10 @@ const PUBLIC_MINT_START_DATE = "2022-03-23T14:30:48+00:00"; // This is required.
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = "2022-03-22T14:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 750; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
-const ROYALTY_ADDRESS = "0x343D6Ff57533250f2453052df4f0E114b646d07e"; // Address that will receive the royalty
+const ROYALTY_ADDRESS = "0x063a8d48d6A1Aa17CE6b35Ec2950479DCDab4203"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
-const PRESALE_WHITELISTED_ADDRESSES = ["0x343D6Ff57533250f2453052df4f0E114b646d07e"]; // only update if you want to manually set the whitelisted addresses
+const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
 let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it
@@ -95,10 +95,10 @@ try {
 const solanaMetadata = {
   symbol: "SLGSW",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
-  external_url: "https://slicewar.com",
+  external_url: "https://slicewar.online",
   creators: [
     {
-      address: "0x343D6Ff57533250f2453052df4f0E114b646d07e",
+      address: "0x063a8d48d6A1Aa17CE6b35Ec2950479DCDab4203",
       share: 0,
     },
   ],
