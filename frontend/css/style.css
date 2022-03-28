@@ -12,16 +12,18 @@
 
 @import url('http://fonts.cdnfonts.com/css/baselbook');
 
+@import url('http://fonts.cdnfonts.com/css/nrt-reg');
+
 /* GLOBAL STYLES */
 
 :root {
   --font-primary: 'Basel Book', serif;
-  --font-secondary: "Coolvetica", serif;
-  --font-code: "Basel Book", serif;
+  --font-secondary: "NRT Reg", sans-serif;
+  --font-code: "NRT Reg", serif;
   --bg-color: #17185b;
-  --bg-color-transparent: #f5f1ff;
-  --font-color: #f5f1ff;
-  --btn-bg-color: #f5f1ff;
+  --bg-color-transparent: #ffffff;
+  --font-color: #ffffff;
+  --btn-bg-color: #ffffff;
   --accent-color: #161758;
   --header-shadow: var(--accent-color) 0px 0px 100px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
