@@ -169,10 +169,7 @@ header .container {
 /* CARD */
 
 .card {
-  position: static;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
+  position: relative;
   background-color: var(--bg-color);
   border-radius: 5px;
   border: 3px solid var(--accent-color);
@@ -358,6 +355,36 @@ section {
 
 .minted-container p {
   margin: 1rem 0;
+}
+
+/* SLIDDER */
+
+.splide {
+  position: absolute;
+  top: 90px;
+  left: 5rem;
+  z-index: -1;
+  /*visibility: hidden;
+*/
+}
+
+.splide__slide {
+  border: var(--accent-color) solid;
+  border-width: 5px 10px;
+  /*visibility: hidden;*/
+}  
+
+.splide__slide img {
+  width: 100%;
+  /*visibility: hidden;*/
+}
+
+/* SPINNER */
+.dot-spin {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(3);
 }
 
 /* MEDIA QUERIES */
