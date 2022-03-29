@@ -170,7 +170,7 @@ header .container {
 
 .card {
   position: relative;
-  top: auto; bottom: auto; right: auto; left: 100px;
+  top: auto; bottom: auto; right: auto; left: auto;
   background-color: var(--bg-color);
   border-radius: 5px;
   border: 3px solid var(--accent-color);
