@@ -3,7 +3,7 @@ const chain = 'polygon'; // rinkeby or polygon
 
 const welcome_h1 = "The Slogger army awaits YOU";
 const welcome_h2 = "Connect to METAMASK to get started";
-const welcome_p = "";
+const welcome_p = "a";
 const h1_presale_coming_soon = "Sloggers Drop Coming Soon";
 const h1_presale_mint = "Pre-Sale Minting OPEN!";
 const h1_public_mint = "Public Minting OPEN!";
