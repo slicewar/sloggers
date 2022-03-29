@@ -17,10 +17,10 @@
 /* GLOBAL STYLES */
 
 :root {
-  --font-primary: 'NRT Reg', serif;
-  --font-secondary: "NRT Reg", sans-serif;
+  --font-primary: 'Devinne Swash', serif;
+  --font-secondary: "NRT Reg", serif;
   --font-code: "NRT Reg", serif;
-  --bg-color: rgba(17, 17, 69, 0.7);
+  --bg-color: rgba(17, 17, 69, 0.8);
   --bg-color-transparent: #ffffff;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
