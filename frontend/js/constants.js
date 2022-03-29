@@ -1,9 +1,9 @@
 const contractAddress = "0xa1018f74b1aB3292742bD9dCFEf0ED1BAe32b0C7"; //Replace with your own contract address
 const chain = 'polygon'; // rinkeby or polygon
 
-const welcome_h1 = "Welcome to the Slice War Metaverse";
-const welcome_h2 = "Connect to MetaMask to get started!";
-const welcome_p = 'The Slice War Metaverse is a set of 4 collections (Amphers, Leggsters, Sloggers and Splinters) based on your metaverse, where each NFT avatar is unique and randomly generated. The first intergalactic war has started and we will have only 1 winner, choose your side!';
+const welcome_h1 = "The Slogger army awaits YOU";
+const welcome_h2 = "CONNECT TO METAMASK TO GET STARTED";
+const welcome_p = 'Slogger NFT avatar is unique and randomly generated. The first intergalactic war has started and we will have only 1 winner, CHOOSE YOUR SIDE!';
 const h1_presale_coming_soon = "Sloggers Drop Coming Soon";
 const h1_presale_mint = "Pre-Sale Minting OPEN!";
 const h1_public_mint = "Public Minting OPEN!";
