@@ -169,7 +169,7 @@ header .container {
 /* CARD */
 
 .card {
-  position: relative;
+  position: center;
   background-color: var(--bg-color);
   border-radius: 5px;
   border: 3px solid var(--accent-color);
@@ -355,14 +355,6 @@ section {
 
 .minted-container p {
   margin: 1rem 0;
-}
-
-/* SPINNER */
-.dot-spin {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(3);
 }
 
 /* MEDIA QUERIES */
