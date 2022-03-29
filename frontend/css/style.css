@@ -24,7 +24,7 @@
   --bg-color-transparent: #ffffff;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
-  --accent-color: rgba(17, 17, 69);
+  --accent-color: rgb(5, 5, 41);
   --header-shadow: var(--accent-color) 0px 0px 0px;
 }
 
@@ -355,28 +355,6 @@ section {
 
 .minted-container p {
   margin: 1rem 0;
-}
-
-/* SLIDDER */
-
-.splide {
-  position: absolute;
-  top: 90px;
-  left: 5rem;
-  z-index: -1;
-  /*visibility: hidden;
-*/
-}
-
-.splide__slide {
-  border: var(--accent-color) solid;
-  border-width: 5px 10px;
-  /*visibility: hidden;*/
-}  
-
-.splide__slide img {
-  width: 100%;
-  /*visibility: hidden;*/
 }
 
 /* SPINNER */
