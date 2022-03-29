@@ -26,7 +26,6 @@
   --btn-bg-color: #ffffff;
   --accent-color: rgba(17,17,69,0.5);
   --header-shadow: var(--accent-color) 0px 0px 0px;
-  --card-shadow: var(--accent-color) 0px 0px 0px;
 }
 
 * {
