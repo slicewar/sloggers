@@ -364,8 +364,8 @@ section {
 
 .splide {
   position: absolute;
-  top: 90px;
-  left: 5rem;
+  top: 0px;
+  left: 0rem;
   z-index: -1;
   /*visibility: hidden;
 */
