@@ -115,9 +115,9 @@ header .container {
 }
 
 .not-connected p {
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-family: var(--font-secondary);
-  line-height: 1.8;
+  line-height: 1.5;
 }
 
 .not-connected a {
@@ -135,9 +135,9 @@ header .container {
   background: var(--btn-bg-color);
   color: var(--accent-color);
   font-family: var(--font-secondary);
-  font-style: italic;
+  font-style: serif;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 0.8rem;
   text-align: center;
   text-transform: capitalize;
   transition: all 0.3s ease;
@@ -172,7 +172,7 @@ header .container {
 .card {
   position: relative;
   background-color: var(--bg-color);
-  opacity: 0,5;
+  opacity: 0.5;
   border-radius: 5px;
   border: 3px solid var(--accent-color);
   box-shadow: var(--card-shadow);
