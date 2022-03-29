@@ -22,11 +22,12 @@
   --font-code: "NRT Reg", serif;
   --bg-color: #111145;
   --bg-color-transparent: #ffffff;
-  --font-color: #cf1515;
+  --font-color: #ffffff;
   --btn-bg-color: #ffffff;
   --accent-color: #0c0f32;
   --header-shadow: var(--accent-color) 0px 0px 0px;
-  --card-shadow: var(--accent-color) 0px 0px 20px;
+  --card-shadow: var(--accent-color) 0px 0px 0px;
+  --card-opacity: 0.5
 }
 
 * {
