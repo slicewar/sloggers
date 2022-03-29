@@ -364,7 +364,7 @@ section {
     gap: 1rem;
   }
   .wallet-btn {
-    margin-left: 0;
+    margin-left: 10;
     padding: 0.5rem 1rem;
     max-width: 8rem;
   }
