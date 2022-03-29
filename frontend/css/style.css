@@ -230,7 +230,7 @@ section {
   color: var(--bg-color-transparent);
   font-size: 2rem;
   font-weight: 700;
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
   padding: 1rem;
   display: inline-block;
   width: 100%;
