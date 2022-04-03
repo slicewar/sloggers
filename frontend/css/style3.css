@@ -1,7 +1,35 @@
+
+Skip to content
+Pull requests
+Issues
+Marketplace
+Explore
+@ednaldoKN
+luanmarco0 /
+dappmint-main
+Public
+
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+
+    Insights
+
+dappmint-main/frontend/css/style.css
+@luanmarco0
+luanmarco0 a
+Latest commit e552b4a 17 hours ago
+History
+1 contributor
+447 lines (384 sloc) 7.72 KB
 /* FONTS */
 
 @import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-/*
+
 @import url('http://fonts.cdnfonts.com/css/coolvetica-2');
 
 @import url('http://fonts.cdnfonts.com/css/devinne-swash');
@@ -12,7 +40,7 @@
 
 @import url('http://fonts.cdnfonts.com/css/baselbook');
 
-@import url('http://fonts.cdnfonts.com/css/nrt-reg');*/
+@import url('http://fonts.cdnfonts.com/css/nrt-reg');
 
 /* GLOBAL STYLES */
 
@@ -34,7 +62,7 @@
   box-sizing: border-box;
 }
 
-body,html{
+body {
   background: url('../images/FundoMint.jpg');
   background-size: cover;
   background-attachment: fixed;
@@ -44,8 +72,6 @@ body,html{
   height: 100vh;
   color: var(--font-color);
   font-family: var(--font-primary);
-  overflow: hidden;
-  width: 100%;
 }
 
 .container-info-mint{
@@ -55,11 +81,10 @@ body,html{
   /*margin: 0 auto;
   padding: 1rem 2rem;
   justify-content: center;*/
-  overflow-y: auto;
+  overflow: hidden;
   width: 700px;
   margin-left: auto;
   margin-right: auto;
-  overflow-x: hidden;
 }
 
 /* HEADER */
@@ -103,11 +128,6 @@ header .container {
   opacity: 0;
   transform: translateY(10vh);
   transition: all 0.5s ease-in-out;
-
-}
-
-#not-connected>div{
-  padding: 20px 100px;
 }
 
 .show-not-connected {
@@ -208,9 +228,10 @@ section {
   margin-bottom: 40px;
 }
 
-/*#countdown{
-  display: block;
-}*/
+#countdown {
+  display: none;
+  text-align: center;
+}
 
 .countdown {
   display: flex;
@@ -282,16 +303,13 @@ section {
   text-align: center;
 }
 
- /*MINT CONTAINER */
-
+/* MINT CONTAINER 
 .mint-container {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 10px 30px;
 }
-
 .info-container {
   display: flex;
   justify-content: space-between;
@@ -299,7 +317,6 @@ section {
   text-align: center;
   margin-bottom: 2rem;
 }
-
 .mint-qty {
   display: flex;
   justify-content: space-between;
@@ -308,18 +325,15 @@ section {
   background-color: var(--accent-color);
   border-radius: 5px;
 }
-
 .mint-qty > span {
   display: flex;
 }
-
 .mint-btn {
   display: flex;
   align-items: center;
   gap: 3rem;
   margin: auto;
 }
-
 .input-number {
   height: 100%;
   padding: 1rem;
@@ -327,25 +341,21 @@ section {
   text-align: center;
   outline: none;
 }
-
 .input-number,
 .input-number-decrement,
 .input-number-increment {
   user-select: none;
 }
-
 .total-price-container {
   display: flex;
   justify-content: space-between;
   width: 100%;
   padding: 1rem 0 2rem;
 }
-
 .total-price-container p {
   color: var(--accent-color);
 }
-
- /*MINTED CONTAINER */
+/* MINTED CONTAINER */
 
 .minted-container {
   display: flex;
@@ -369,7 +379,7 @@ section {
   margin: 1rem 0;
 }
 
-/*SLIDDER */
+/* SLIDDER */
 
 .splide {
   position: absolute;
