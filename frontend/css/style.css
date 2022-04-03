@@ -54,7 +54,7 @@ body {
   /*margin: 0 auto;
   padding: 1rem 2rem;
   justify-content: center;*/
-  overflow-y: scroll;
+  overflow-y: auto;
   width: 700px;
   margin-left: auto;
   margin-right: auto;
@@ -144,7 +144,7 @@ header .container {
   color: var(--accent-color);
   font-family: var(--font-secondary);
   font-style: serif;
-  font-weight: bold;
+  font-weight: serif;
   font-size: 0.8rem;
   text-align: center;
   text-transform: capitalize;
