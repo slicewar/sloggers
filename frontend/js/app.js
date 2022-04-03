@@ -27,7 +27,7 @@ window.addEventListener("DOMContentLoaded", async () => {
   const splide = new Splide(".splide", {
     type: "loop",
     arrows: false,
-    perMove: 3,
+    perMove: 1,
     pagination: false,
     autoplay: true,
     direction: 'ttb',
@@ -49,7 +49,7 @@ window.addEventListener("DOMContentLoaded", async () => {
 const updateConnectStatus = async () => {
   const onboarding = new MetaMaskOnboarding();
   const onboardButton = document.getElementById("connectWallet");
-  const notConnected = document.querySelector('.not-connected');
+  const notConnected = document.getElementById('not-connected');
   const spinner = document.getElementById("spinner");
   if (!MetaMaskOnboarding.isMetaMaskInstalled()) {
     onboardButton.innerText = "Install MetaMask!";
