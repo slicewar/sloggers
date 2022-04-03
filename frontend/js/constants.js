@@ -1,5 +1,5 @@
 const contractAddress = "0x4Dad965ce277B951a066303c104f257EC997610b"; //Replace with your own contract address
-const chain = 'rinkeby'; // rinkeby or polygon
+const chain = 'polygon'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the Slice War Metaverse";
 const welcome_h2 = "Connect to MetaMask to get started!";
