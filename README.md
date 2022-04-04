@@ -110,6 +110,8 @@ $ npm run update_presale_whitelisted_addresses
 $ npm run update_presale_whitelisted_addresses_remove
 $ npm run update_royalty_share
 $ npm run update_royalty_address
+
+Depois da Venda:
 $ npm run update_base_uri
 $ npm run update_prereveal_token_uri
 ```
